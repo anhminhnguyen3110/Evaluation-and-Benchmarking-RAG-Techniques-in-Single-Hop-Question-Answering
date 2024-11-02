@@ -1,0 +1,224 @@
+{
+  "multifieldqa_en": {
+    "squad_v2": {
+      "exact_match": 22.0,
+      "f1": 54.62359202447531
+    },
+    "scorer_result": {
+      "qa_f1_score": 54.62,
+      "qa_precision": 67.54,
+      "qa_recall": 56.55,
+      "rouge_score": 47.99
+    },
+    "scorer_e_result": {
+      "0-4k": {
+        "qa_f1_score": 59.41,
+        "rouge_score": 51.84,
+        "qa_precision": 74.94,
+        "qa_recall": 56.8
+      },
+      "4-8k": {
+        "qa_f1_score": 49.19,
+        "rouge_score": 43.23,
+        "qa_precision": 59.51,
+        "qa_recall": 55.86
+      },
+      "8k+": {
+        "qa_f1_score": 59.18,
+        "rouge_score": 53.8,
+        "qa_precision": 72.68,
+        "qa_recall": 58.93
+      }
+    },
+    "ai_evaluator": [
+      [
+        {
+          "0-4k": {
+            "ragas": {
+              "answer_correctness": 69.54,
+              "answer_relevancy": 87.49,
+              "faithfulness": 91.04,
+              "context_precision": 89.15,
+              "context_recall": 93.73,
+              "answer_similarity": 92.58
+            }
+          },
+          "4-8k": {
+            "ragas": {
+              "answer_correctness": 65.9,
+              "answer_relevancy": 83.98,
+              "faithfulness": 92.38,
+              "context_precision": 81.69,
+              "context_recall": 92.38,
+              "answer_similarity": 90.87
+            }
+          },
+          "8k+": {
+            "ragas": {
+              "answer_correctness": 81.95,
+              "answer_relevancy": 93.38,
+              "faithfulness": 100.0,
+              "context_precision": 88.46,
+              "context_recall": 100.0,
+              "answer_similarity": 92.04
+            }
+          }
+        },
+        {
+          "ragas": {
+            "answer_correctness": 68.92,
+            "answer_relevancy": 86.36,
+            "faithfulness": 92.44,
+            "context_precision": 85.61,
+            "context_recall": 93.64,
+            "answer_similarity": 91.74
+          }
+        }
+      ]
+    ]
+  },
+  "narrativeqa": {
+    "squad_v2": {
+      "exact_match": 12.5,
+      "f1": 24.591133702898397
+    },
+    "scorer_result": {
+      "qa_f1_score": 24.59,
+      "qa_precision": 28.39,
+      "qa_recall": 24.11,
+      "rouge_score": 20.65
+    },
+    "scorer_e_result": {
+      "0-4k": {},
+      "4-8k": {
+        "qa_f1_score": 33.09,
+        "rouge_score": 28.14,
+        "qa_precision": 36.83,
+        "qa_recall": 33.09
+      },
+      "8k+": {
+        "qa_f1_score": 23.03,
+        "rouge_score": 19.27,
+        "qa_precision": 26.85,
+        "qa_recall": 22.47
+      }
+    },
+    "ai_evaluator": [
+      [
+        {
+          "0-4k": {
+            "ragas": {}
+          },
+          "4-8k": {
+            "ragas": {
+              "answer_correctness": 40.54,
+              "answer_relevancy": 69.42,
+              "faithfulness": 70.97,
+              "context_precision": 72.54,
+              "context_recall": 70.97,
+              "answer_similarity": 88.0
+            }
+          },
+          "8k+": {
+            "ragas": {
+              "answer_correctness": 28.34,
+              "answer_relevancy": 49.28,
+              "faithfulness": 49.11,
+              "context_precision": 53.5,
+              "context_recall": 49.31,
+              "answer_similarity": 84.23
+            }
+          }
+        },
+        {
+          "ragas": {
+            "answer_correctness": 30.23,
+            "answer_relevancy": 52.4,
+            "faithfulness": 52.5,
+            "context_precision": 56.45,
+            "context_recall": 52.67,
+            "answer_similarity": 84.81
+          }
+        }
+      ]
+    ]
+  },
+  "qasper": {
+    "squad_v2": {
+      "exact_match": 23.0,
+      "f1": 44.27266036665176
+    },
+    "scorer_result": {
+      "qa_f1_score": 44.27,
+      "qa_precision": 51.73,
+      "qa_recall": 43.54,
+      "rouge_score": 26.25
+    },
+    "scorer_e_result": {
+      "0-4k": {
+        "qa_f1_score": 43.83,
+        "rouge_score": 25.67,
+        "qa_precision": 52.35,
+        "qa_recall": 42.6
+      },
+      "4-8k": {
+        "qa_f1_score": 42.62,
+        "rouge_score": 26.22,
+        "qa_precision": 48.3,
+        "qa_recall": 42.94
+      },
+      "8k+": {
+        "qa_f1_score": 76.19,
+        "rouge_score": 42.15,
+        "qa_precision": 76.35,
+        "qa_recall": 76.19
+      }
+    },
+    "ai_evaluator": [
+      [
+        {
+          "0-4k": {
+            "ragas": {
+              "answer_correctness": 45.06,
+              "answer_relevancy": 51.99,
+              "faithfulness": 61.56,
+              "context_precision": 57.39,
+              "context_recall": 61.23,
+              "answer_similarity": 88.3
+            }
+          },
+          "4-8k": {
+            "ragas": {
+              "answer_correctness": 45.06,
+              "answer_relevancy": 57.12,
+              "faithfulness": 65.33,
+              "context_precision": 62.5,
+              "context_recall": 63.97,
+              "answer_similarity": 88.24
+            }
+          },
+          "8k+": {
+            "ragas": {
+              "answer_correctness": 70.0,
+              "answer_relevancy": 67.25,
+              "faithfulness": 20.0,
+              "context_precision": 58.33,
+              "context_recall": 80.0,
+              "answer_similarity": 95.27
+            }
+          }
+        },
+        {
+          "ragas": {
+            "answer_correctness": 45.69,
+            "answer_relevancy": 53.91,
+            "faithfulness": 61.65,
+            "context_precision": 58.95,
+            "context_recall": 62.52,
+            "answer_similarity": 88.46
+          }
+        }
+      ]
+    ]
+  }
+}
