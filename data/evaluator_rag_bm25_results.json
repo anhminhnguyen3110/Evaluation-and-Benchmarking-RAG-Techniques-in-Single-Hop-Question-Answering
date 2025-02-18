@@ -1,7 +1,7 @@
 {
   "multifieldqa_en": {
     "squad_v2": {
-      "exact_match": 16.666666666666668,
+      "exact_match": 16.6666666666666668,
       "f1": 40.94117580122761
     },
     "scorer_result": {

@@ -16,6 +16,7 @@ azure_configs = {
     "openai_api_version": "",
 }
 
+
 azure_model = AzureChatOpenAI(
     openai_api_version=azure_configs["openai_api_version"],
     azure_deployment=azure_configs["model_deployment"],
